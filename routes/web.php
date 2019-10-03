@@ -22,6 +22,7 @@ Route::get('about', function () {
 Route::get('products', function () {
     return view('frontend.products');
 })->name('products');
+
 Route::get('store', function () {
     return view('frontend.store');
 })->name('store');
